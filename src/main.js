@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import {createApp} from 'vue';
+import App from './App.vue';
+import _ from 'lodash';
 
-createApp(App).mount('#app')
+console.log(_.join(['Hello', 'world'], ' '));
+console.log(_.capitalize('tree shaking'));
+
+createApp(App).mount('#app');
